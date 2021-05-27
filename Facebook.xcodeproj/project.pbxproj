@@ -15,6 +15,13 @@
 		5D400DCB26550F3700AC5533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D400DC926550F3700AC5533 /* LaunchScreen.storyboard */; };
 		5D400DD626550F3700AC5533 /* FacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D400DD526550F3700AC5533 /* FacebookTests.swift */; };
 		5D400DE126550F3700AC5533 /* FacebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D400DE026550F3700AC5533 /* FacebookUITests.swift */; };
+		5D4C2D382657BD6000988865 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4C2D372657BD6000988865 /* Social.framework */; };
+		5D4D076F265620BE00F49070 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4D076E265620BE00F49070 /* FacebookManager.swift */; };
+		5D4D077F2656297C00F49070 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D37F744265519E2002666D0 /* FBSDKCoreKit.framework */; };
+		5D4D07802656297C00F49070 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D37F742265519E2002666D0 /* FBSDKLoginKit.framework */; };
+		5D4D07812656297C00F49070 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D37F743265519E2002666D0 /* FBSDKShareKit.framework */; };
+		5D4D079B2656558400F49070 /* FacebookProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4D079A2656558400F49070 /* FacebookProfile.swift */; };
+		5D4D07A0265655C800F49070 /* FacebookProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4D079F265655C800F49070 /* FacebookProfile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D37F742265519E2002666D0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Carthage/Build/iOS/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		5D37F743265519E2002666D0 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = Carthage/Build/iOS/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		5D37F744265519E2002666D0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		5D37F745265519E2002666D0 /* FBSDKGamingServicesKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKGamingServicesKit.framework; path = Carthage/Build/iOS/FBSDKGamingServicesKit.framework; sourceTree = "<group>"; };
 		5D400DBB26550F3600AC5533 /* Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D400DBE26550F3600AC5533 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D400DC026550F3600AC5533 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,10 @@
 		5D400DDC26550F3700AC5533 /* FacebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D400DE026550F3700AC5533 /* FacebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookUITests.swift; sourceTree = "<group>"; };
 		5D400DE226550F3700AC5533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D4C2D372657BD6000988865 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		5D4D076E265620BE00F49070 /* FacebookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
+		5D4D079A2656558400F49070 /* FacebookProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookProfile.swift; sourceTree = "<group>"; };
+		5D4D079F265655C800F49070 /* FacebookProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FacebookProfile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D4C2D382657BD6000988865 /* Social.framework in Frameworks */,
+				5D4D077F2656297C00F49070 /* FBSDKCoreKit.framework in Frameworks */,
+				5D4D07802656297C00F49070 /* FBSDKLoginKit.framework in Frameworks */,
+				5D4D07812656297C00F49070 /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +95,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D37F741265519E2002666D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D4C2D372657BD6000988865 /* Social.framework */,
+				5D37F744265519E2002666D0 /* FBSDKCoreKit.framework */,
+				5D37F745265519E2002666D0 /* FBSDKGamingServicesKit.framework */,
+				5D37F742265519E2002666D0 /* FBSDKLoginKit.framework */,
+				5D37F743265519E2002666D0 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5D400DB226550F3600AC5533 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +114,7 @@
 				5D400DD426550F3700AC5533 /* FacebookTests */,
 				5D400DDF26550F3700AC5533 /* FacebookUITests */,
 				5D400DBC26550F3600AC5533 /* Products */,
+				5D37F741265519E2002666D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +132,15 @@
 			isa = PBXGroup;
 			children = (
 				5D400DBE26550F3600AC5533 /* AppDelegate.swift */,
+				5D4D079A2656558400F49070 /* FacebookProfile.swift */,
+				5D4D079F265655C800F49070 /* FacebookProfile.storyboard */,
 				5D400DC026550F3600AC5533 /* SceneDelegate.swift */,
 				5D400DC226550F3600AC5533 /* ViewController.swift */,
 				5D400DC426550F3600AC5533 /* Main.storyboard */,
 				5D400DC726550F3700AC5533 /* Assets.xcassets */,
 				5D400DC926550F3700AC5533 /* LaunchScreen.storyboard */,
 				5D400DCC26550F3700AC5533 /* Info.plist */,
+				5D4D076E265620BE00F49070 /* FacebookManager.swift */,
 			);
 			path = Facebook;
 			sourceTree = "<group>";
@@ -138,6 +173,7 @@
 				5D400DB726550F3600AC5533 /* Sources */,
 				5D400DB826550F3600AC5533 /* Frameworks */,
 				5D400DB926550F3600AC5533 /* Resources */,
+				5D37F74A265519FB002666D0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -231,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D4D07A0265655C800F49070 /* FacebookProfile.storyboard in Resources */,
 				5D400DCB26550F3700AC5533 /* LaunchScreen.storyboard in Resources */,
 				5D400DC826550F3700AC5533 /* Assets.xcassets in Resources */,
 				5D400DC626550F3600AC5533 /* Main.storyboard in Resources */,
@@ -253,12 +290,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D37F74A265519FB002666D0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/FBSDKCoreKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FBSDKLoginKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FBSDKShareKit.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D400DB726550F3600AC5533 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5D400DC326550F3600AC5533 /* ViewController.swift in Sources */,
+				5D4D076F265620BE00F49070 /* FacebookManager.swift in Sources */,
+				5D4D079B2656558400F49070 /* FacebookProfile.swift in Sources */,
 				5D400DBF26550F3600AC5533 /* AppDelegate.swift in Sources */,
 				5D400DC126550F3600AC5533 /* SceneDelegate.swift in Sources */,
 			);
@@ -436,14 +498,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2GSJ736V3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Facebook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.Facebook;
+				PRODUCT_BUNDLE_IDENTIFIER = thammanoon.Facebook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,14 +523,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2GSJ736V3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Facebook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.Facebook;
+				PRODUCT_BUNDLE_IDENTIFIER = thammanoon.Facebook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,7 +548,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FacebookTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -493,7 +571,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FacebookTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
